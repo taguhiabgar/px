@@ -115,6 +115,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="cell.cpp" />
+    <ClCompile Include="coordinate.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="match.cpp" />
+    <ClCompile Include="match3game.cpp" />
+    <ClCompile Include="objective.cpp" />
+    <ClCompile Include="size.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="board.h" />
+    <ClInclude Include="cell.h" />
+    <ClInclude Include="coordinate.h" />
+    <ClInclude Include="match.h" />
+    <ClInclude Include="match3game.h" />
+    <ClInclude Include="objective.h" />
+    <ClInclude Include="size.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
